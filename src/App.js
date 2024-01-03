@@ -1,9 +1,33 @@
-import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Services  from "./pages/Services";
+import Contact from "./pages/Contact";
+import Testimonial from './pages/Testimonial'
+import NoPage from "./pages/NoPage";
 
-const App = () => {
+
+
+function App() {
   return (
-    <div className='bg-black'>App</div>
-  )
+  <>
+    
+      <BrowserRouter>
+      <Routes>
+        
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="services" element={<Services />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="testimonial" element={<Testimonial />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+        
+      </Routes>
+    </BrowserRouter>
+  
+  </>
+  );
 }
 
-export default App
+export default App;
