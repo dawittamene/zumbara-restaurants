@@ -38,7 +38,7 @@ const Layout = () => {
         </div>
 
         <ul className={`
-           md:hidden bg-black absolute w-full h-full bottom-2 py-24 pl-4 duration-500 ${open ? 'left-0' : 'left-[-100%]'}`}>
+           md:hidden bg-black absolute w-full h-full bottom-2 py-24 pl-4 duration-500 divide-y divide-solid divide-gray-900  ${open ? 'left-0' : 'left-[-100%]'}`}>
             <li  className='py-5 '>
               <Link to="/">Home</Link>
             </li>
