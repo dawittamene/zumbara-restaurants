@@ -1,11 +1,13 @@
 import React from 'react'
 import Hero from '../Components/Hero/Hero'
+import SampleServices from '../Components/SampleServices/SampleServices'
 
 const Home = () => {
   return (
-    <div>
+    <section>
       <Hero />
-    </div>
+      <SampleServices />
+    </section>
   )
 }
 

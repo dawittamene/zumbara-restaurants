@@ -44,7 +44,7 @@ const Hero = () => {
           {/* text content section */}
 
           <div className=' flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1'>
-            <h1 className=' text-5xl sm:text-6xl lg:text-7xl font-bold'>
+            <h1 className=' text-5xl sm:text-6xl lg:text-7xl font-bold font-[poppins]'>
               Welcome To Zumbara Restaurant
             </h1>
 
@@ -74,7 +74,7 @@ const Hero = () => {
            </div>
               
               {/* image List */}
-              <div className='flex lg:flex-col lg:top-1/3   lg:py-2 
+              <div className='flex lg:flex-col lg:top-1/3 lg:py-2 
               justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full'>
                 {
                   ImageList.map((item) => (
