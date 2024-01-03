@@ -52,7 +52,7 @@ const Layout = () => {
         </div>
 
         <ul className={`
-           md:hidden bg-white dark:bg-gray-900 dark:text-white absolute w-full h-full bottom-2 py-24 pl-4 duration-500   ${open ? 'left-0' : 'left-[-100%]'}`}>
+           md:hidden bg-white dark:bg-gray-900 dark:text-white absolute w-full h-full bottom-2 py-24 pl-4 duration-500   ${open ? 'top-0' : 'top-[-100%]'}`}>
             <li  className='py-5 '>
               <Link to="/">Home</Link>
             </li>
