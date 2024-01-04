@@ -3,6 +3,7 @@ import Hero from '../Components/Hero/Hero'
 import SampleServices from '../Components/SampleServices/SampleServices'
 import Banner from '../Components/Banner/Banner'
 import AppStore from '../Components/AppStore/AppStore'
+import Testimonial from '../Components/Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <SampleServices />
       <Banner />
       <AppStore />
+      <Testimonial />
     </section>
   )
 }
