@@ -32,17 +32,17 @@ const Layout = () => {
               <DarkMode/>
             </div>
           <ul className=" flex gap-6">
-            <li className=" ml-3 hover:text-gray-500 duration-500">
+            <li className=" ml-3 hover:text-primary hover:border-b-2 hover:border-primary duration-500">
               <Link to="/">Home</Link>
             </li>
-            <li className=" ml-3 hover:text-gray-500 duration-500">
+            <li className=" ml-3 hover:text-primary hover:border-b-2 hover:border-primary  duration-500">
               <Link to="/services">Services</Link>
             </li>
-            <li className=" ml-3 hover:text-gray-500 duration-500">
+            <li className=" ml-3 hover:text-primary hover:border-b-2 hover:border-primary  duration-500">
               <Link to="/contact">Contact</Link>
             </li>
-            <li className=" ml-3 hover:text-gray-500 duration-500">
-              <Link to="/testimonial">Testimonial</Link>
+            <li className=" ml-3 hover:text-primary hover:border-b-2 hover:border-primary  duration-500">
+              <Link to="/about">About</Link>
             </li>
           </ul>
           <div className=" ml-5">
@@ -63,7 +63,7 @@ const Layout = () => {
               <Link to="/contact">Contact</Link>
             </li>
             <li className='py-5 '>
-              <Link to="/testimonial">Testimonial</Link>
+              <Link to="/testimonial">About</Link>
             </li>
             <div className="pt-5 justify-center gap-48 flex">
             <Button/>
