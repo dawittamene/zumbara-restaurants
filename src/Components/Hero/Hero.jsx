@@ -43,7 +43,12 @@ const Hero = () => {
         <div className=' grid grid-cols-1 sm:grid-cols-2'>
           {/* text content section */}
 
-          <div className=' flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1'>
+          <div
+          data-aos="zoom-out"
+          data-aos-duration="400"
+          data-aos-once="true"
+          
+          className=' flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1'>
             <h1 className=' text-5xl sm:text-6xl lg:text-7xl font-bold font-[poppins]'>
               Welcome To Zumbara Restaurant
             </h1>
@@ -68,7 +73,12 @@ const Hero = () => {
           <div className=' min-h-[450px] sm:min-h-[450px] justify-center items-center flex order-1 sm:order-2 relative'>
            {/* main image */}
            <div className=' flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden'>
-            <img src={ImageId} alt="Food1"
+            <img
+            
+            data-aos="zoom-out"
+          data-aos-duration="300"
+          data-aos-once="true"
+            src={ImageId} alt="Food1"
             className='w-[300] sm:w-[450] mx-auto spin ' 
             />
            </div>
@@ -78,7 +88,11 @@ const Hero = () => {
               justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full'>
                 {
                   ImageList.map((item) => (
-                    <img alt='image list'
+                    <img 
+                    data-aos="zoom-out"
+                    data-aos-duration="400"
+                    data-aos-once="true"
+                    alt='image list'
                     key={item.id}
                     src={item.image}
                     className=' max-w-[80px] h-[80px] object-contain inline-block hover:scale-105 duration-200  '

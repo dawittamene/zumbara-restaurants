@@ -14,7 +14,7 @@ const Home = () => {
       <Banner />
       <AppStore />
       <Testimonial />
-      <Footer/>
+      <Footer/>         
     </section>
   )
 }

@@ -101,7 +101,7 @@ const Footer = () => {
             </div>
             <div className=' text-center py-10 border-t-2 border-gray-300/50'>
                 
-                    @copyright 2024 All right reserved || Zumbara Web Developing Group
+                    &copy; copyright 2024 All right reserved || Zumbara Web Developing Group
                
             </div>
         </div>

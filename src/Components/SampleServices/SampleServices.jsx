@@ -54,7 +54,11 @@ const SampleServices = () => {
                     {
                         ServicesData.map(({id,image,name,discriptions})=>{
                             return (
-                            <div key={id} className=' max-w-[300px] group rounded-2xl bg-white
+                            <div
+                            data-aos="zoom-out"
+                            data-aos-duration="300"
+                            data-aos-once="true"
+                            key={id} className=' max-w-[300px] group rounded-2xl bg-white
                              dark:bg-gray-800 hover:bg-primary hover:text-white duration-300 p-4 cursor-pointer shadow-xl'>
                                 <div className='h-[100px]'>
                                     <img src={image} alt="" 
