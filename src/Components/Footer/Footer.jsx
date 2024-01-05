@@ -1,5 +1,7 @@
 import React from 'react'
 import FOOTER from '../../assets/food-logo.png';
+import { Link } from "react-router-dom";
+
 import{
     FaLocationArrow,
     FaFacebook,
@@ -66,10 +68,21 @@ const Footer = () => {
                         <div className=' py-8 px-4'>
                             <h1 className=' text-xl font-bold text-justify sm:text-left mb-3 '>Important Link</h1>
                             <ul className=' flex flex-col gap-3'>
-                                <li>Home</li>
-                                <li>Services</li>
-                                <li>Contact</li>
-                                <li>Testimonial</li>
+                                <li>
+                                <Link to="/">Home</Link>
+                                </li>
+                                <li>
+                                <Link to="/">Services</Link>
+                                    
+                                </li>
+                                <li>
+                                <Link to="/">Contact</Link>
+                                    
+                                </li>
+                                <li>
+                                <Link to="/">Testimonial</Link>
+                                    
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -78,10 +91,21 @@ const Footer = () => {
                         <div className=' py-8 px-4'>
                             <h1 className=' text-xl font-bold text-justify sm:text-left mb-3 '>Important Link</h1>
                             <ul className=' flex flex-col gap-3'>
-                                <li>Home</li>
-                                <li>Services</li>
-                                <li>Contact</li>
-                                <li>Testimonial</li>
+                            <li>
+                                <Link to="/">Home</Link>
+                                </li>
+                                <li>
+                                <Link to="/">Services</Link>
+                                    
+                                </li>
+                                <li>
+                                <Link to="/">Contact</Link>
+                                    
+                                </li>
+                                <li>
+                                <Link to="/">Testimonial</Link>
+                                    
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -90,10 +114,21 @@ const Footer = () => {
                         <div className=' py-8 px-4'>
                             <h1 className=' text-xl font-bold text-justify sm:text-left mb-3 '>Important Link</h1>
                             <ul className=' flex flex-col gap-3'>
-                                <li>Home</li>
-                                <li>Services</li>
-                                <li>Contact</li>
-                                <li>Testimonial</li>
+                            <li>
+                                <Link to="/">Home</Link>
+                                </li>
+                                <li>
+                                <Link to="/">Services</Link>
+                                    
+                                </li>
+                                <li>
+                                <Link to="/">Contact</Link>
+                                    
+                                </li>
+                                <li>
+                                <Link to="/">Testimonial</Link>
+                                    
+                                </li>
                             </ul>
                         </div>
                     </div>
